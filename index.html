@@ -96,12 +96,13 @@
     <div id="questionContainer"></div>
     <input type="submit" value="Ver Resultados" class="submit-btn">
   </form>
-  <div class="action-buttons">
+
+  <div id="results" class="result" style="display:none;"></div>
+  <div id="sharing" class="action-buttons" hidden>
     <button id="copyBtn">Copiar Resultados</button>
     <button id="shareBtn">Compartir Resultados</button>
   </div>
-  <div id="results" class="result"></div>
-
+  
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const NUM_PAIRS = 70;
@@ -153,6 +154,7 @@
         const resultDiv = document.getElementById("results");
         resultDiv.innerHTML = output;
         resultDiv.scrollIntoView({ behavior: "smooth" });
+        document.getElementById("sharing").style.display = 'inline';
       };
 
       document.getElementById("copyBtn").addEventListener("click", function() {
