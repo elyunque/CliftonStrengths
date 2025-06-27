@@ -96,12 +96,8 @@
     <div id="questionContainer"></div>
     <input type="submit" value="Ver Resultados" class="submit-btn">
   </form>
-
+  
   <div id="results" class="result" style="display:none;"></div>
-  <div id="sharing" class="action-buttons" hidden>
-    <button id="copyBtn">Copiar Resultados</button>
-    <button id="shareBtn">Compartir Resultados</button>
-  </div>
   
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -151,10 +147,12 @@
           output += `<li><strong>${talent}</strong>: ${score} puntos</li>`;
         });
         output += "</ol>";
+        output += "<div id='sharing' class='action-buttons' hidden>";
+        output += "<button id='copyBtn'>Copiar Resultados</button>";
+        output += "<button id='shareBtn'>Compartir Resultados</button></div>";
         const resultDiv = document.getElementById("results");
         resultDiv.innerHTML = output;
         resultDiv.scrollIntoView({ behavior: "smooth" });
-        document.getElementById("sharing").style.display = 'inline';
       };
 
       document.getElementById("copyBtn").addEventListener("click", function() {
