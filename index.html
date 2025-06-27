@@ -2,19 +2,83 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test CliftonStrengths - Dinámico</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    .pair { margin-bottom: 30px; }
-    .pair p { font-weight: bold; }
-    .submit-btn { padding: 10px 20px; font-size: 1em; }
-    .result { margin-top: 40px; font-size: 1.1em; }
-    .option-label { display: block; margin-top: 8px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .pair {
+      margin-bottom: 30px;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .pair p {
+      font-weight: bold;
+    }
+
+    .submit-btn {
+      padding: 12px 24px;
+      font-size: 1.1em;
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin: 20px auto;
+      background-color: #0078D7;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #005ea3;
+    }
+
+    .result {
+      margin-top: 40px;
+      font-size: 1.1em;
+    }
+
+    .option-label {
+      display: block;
+      margin-top: 8px;
+      padding-left: 10px;
+    }
+
+    .instructions {
+      background-color: #eef5f9;
+      border-left: 4px solid #0078D7;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 10px;
+      }
+
+      .submit-btn {
+        font-size: 1em;
+        padding: 10px 16px;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>CliftonStrengths - Selección de Afirmaciones</h1>
-  <div class="instructions" style="background-color:#eef5f9; border-left: 4px solid #0078D7; padding: 16px; margin-bottom: 24px;">
+  <div class="instructions">
     <h2>Instrucciones</h2>
     <p>
       A continuación, se te presentarán varias preguntas, cada una compuesta por dos afirmaciones contrastantes. 
