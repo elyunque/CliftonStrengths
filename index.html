@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test CliftonStrengths - Dinámico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    .pair { margin-bottom: 30px; }
+    .pair p { font-weight: bold; }
+    .submit-btn { padding: 10px 20px; font-size: 1em; }
+    .result { margin-top: 40px; font-size: 1.1em; }
+    .option-label { display: block; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>CliftonStrengths - Selección de Afirmaciones</h1>
+  <form id="strengthsForm">
+    <div id="questionContainer"></div>
+    <input type="submit" value="Ver Resultados" class="submit-btn">
+  </form>
+  <div id="results" class="result"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const NUM_PAIRS = 70; // 70 affirmations = 35 pairs
+
+      async function loadQuestions() {
+        try {
+          const response = await fetch('CliftonStrengths_Afirmaciones.json');
+          const affirmations = await response.json();
+          const shuffled = affirmations.sort(() => 0.5 - Math.random());
+          const selected = shuffled.slice(0, NUM_PAIRS * 2);
+
+          const container = document.getElementById("questionContainer");
+          for (let i = 0; i < NUM_PAIRS; i++) {
+            const a = selected[i * 2];
+            const b = selected[i * 2 + 1];
+            const div = document.createElement("div");
+            div.classList.add("pair");
+            div.innerHTML = `
+              <p>Pregunta ${i + 1}:</p>
+              <label class="option-label">
+                <input type="radio" name="pair${i}" value="${a.Talento}" required>
+                ${a.Afirmación}
+              </label>
+              <label class="option-label">
+                <input type="radio" name="pair${i}" value="${b.Talento}">
+                ${b.Afirmación}
+              </label>
+            `;
+            container.appendChild(div);
+          }
+        } catch (error) {
+          console.error("Error al cargar las afirmaciones:", error);
+        }
+      }
+
+      document.getElementById("strengthsForm").onsubmit = function(event) {
+        event.preventDefault();
+        let scores = {};
+        for (let i = 0; i < NUM_PAIRS; i++) {
+          const val = document.querySelector(`input[name='pair${i}']:checked`).value;
+          scores[val] = (scores[val] || 0) + 1;
+        }
+        let sortable = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+        let output = "<h2>Resultados:</h2><ol>";
+        sortable.forEach(([talent, score]) => {
+          output += `<li><strong>${talent}</strong>: ${score} puntos</li>`;
+        });
+        output += "</ol>";
+        document.getElementById("results").innerHTML = output;
+      };
+
+      loadQuestions();
+    });
+  </script>
+</body>
+</html>
