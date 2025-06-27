@@ -4322,5 +4322,781 @@
   {
     "Talento": "Woo",
     "Afirmación": "Busco que cada persona se sienta bienvenida en mi presencia."
+  },
+    {
+    "Talento": "Activator",
+    "Afirmación": "Me motiva convertir ideas en acción sin necesidad de una planificación extensa."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Prefiero comenzar ahora y ajustar en el camino, en lugar de esperar a tener todo perfecto."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Impulso a otros a dar el primer paso cuando las decisiones se estancan."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Me impaciento con la inacción prolongada y prefiero avanzar de inmediato."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Actuar es mi forma de generar claridad y aprendizaje."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Creo que las oportunidades tienen una ventana corta y deben aprovecharse rápido."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Inicio proyectos con entusiasmo y energía, inspirando movimiento en los equipos."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Para mí, empezar algo es más importante que tener todas las respuestas."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Me es natural asumir riesgos calculados si eso implica poner en marcha una iniciativa."
+  },
+  {
+    "Talento": "Activator",
+    "Afirmación": "Valoro la experiencia directa por encima del análisis prolongado."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Me siento cómodo ajustando mi rumbo cuando las circunstancias cambian de repente."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Prosperar en entornos inciertos me parece natural."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Suelo mantener la calma cuando los planes se alteran."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Me gusta vivir el momento sin necesidad de controlar todo el futuro."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Acepto el cambio como una parte constante de la vida, no como una interrupción."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Puedo tomar decisiones rápidamente cuando la situación lo requiere."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Me acomodo con facilidad a nuevos equipos, culturas o estilos de trabajo."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Encuentro satisfacción al responder de forma espontánea a las necesidades del presente."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Me es fácil apoyar a otros en momentos de transición o incertidumbre."
+  },
+  {
+    "Talento": "Adaptability",
+    "Afirmación": "Prefiero trabajar con flexibilidad que seguir una rutina rígida."
+  },
+  {
+    "Talento": "Analytical",
+    "Afirmación": "Necesito entender las razones detrás de cualquier afirmación antes de aceptarla."
+  },
+  {
+    "Talento": "Analytical",
+    "Afirmación": "Cuestiono los supuestos y busco evidencia concreta."
+  },
+  {
+    "Talento": "Analytical",
+    "Afirmación": "Me es natural identificar patrones y relaciones entre datos."
+  },
+  {
+    "Talento": "Analytical",
+    "Afirmación": "Me gusta diseccionar los problemas complejos en partes manejables."
+  },
+  {
+    "Talento": "Analytical",
+    "Afirmación": "Valoro más los hechos que las intuiciones en los procesos de decisión."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Me gusta reorganizar recursos hasta encontrar la combinación más eficiente."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Suelo tener claridad mental en medio del caos."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Coordinando varios elementos simultáneamente encuentro mi flujo."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Me siento retado positivamente cuando debo manejar múltiples variables."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Disfruto encontrar sinergias entre personas, tareas y procesos."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Puedo reconfigurar planes rápidamente si algo cambia."
+  },
+  {
+    "Talento": "Arranger",
+    "Afirmación": "Me motiva lograr que todo fluya, incluso en escenarios complejos."
+  },
+  {
+    "Talento": "Belief",
+    "Afirmación": "Tengo valores fundamentales que guían cada una de mis decisiones."
+  },
+  {
+    "Talento": "Belief",
+    "Afirmación": "Me comprometo con causas que resuenan con mis convicciones personales."
+  },
+  {
+    "Talento": "Belief",
+    "Afirmación": "La integridad es un principio que no estoy dispuesto a comprometer."
+  },
+  {
+    "Talento": "Belief",
+    "Afirmación": "Encuentro propósito cuando lo que hago refleja mis creencias profundas."
+  },
+  {
+    "Talento": "Communication",
+    "Afirmación": "Disfruto transformar ideas complejas en mensajes claros para otros."
+  },
+  {
+    "Talento": "Communication",
+    "Afirmación": "Me entusiasma encontrar la palabra justa para captar la atención de la audiencia."
+  },
+  {
+    "Talento": "Communication",
+    "Afirmación": "Me energiza compartir historias que inspiran o conectan con los demás."
+  },
+  {
+    "Talento": "Communication",
+    "Afirmación": "Comunicar no solo es transmitir, es conectar emocionalmente con quien escucha."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Me impulsa saber cómo estoy en comparación con los mejores."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Cada desafío es una oportunidad para demostrar mi capacidad."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Me esfuerzo más cuando hay un claro marcador de quién gana."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Las metas me inspiran más si incluyen un componente competitivo."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Me gusta destacar y ser reconocido por logros sobresalientes."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "En un entorno competitivo, doy lo mejor de mí."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Compararme con estándares altos me mantiene motivado."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "Siento orgullo cuando soy el primero en lograr algo."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "No me conformo con ser bueno; quiero ser el mejor."
+  },
+  {
+    "Talento": "Competition",
+    "Afirmación": "El reconocimiento público refuerza mi motivación natural."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Creo que cada experiencia tiene un propósito en el gran esquema de la vida."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Me guía la convicción de que todo está interrelacionado."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "En los momentos difíciles, encuentro sentido al ver el panorama completo."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Valoro la armonía porque todos formamos parte de un mismo sistema."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Siento que mis acciones afectan más allá de lo inmediato."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Encuentro consuelo en creer que hay un orden mayor en lo que ocurre."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Me conecto fácilmente con personas distintas a mí."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Veo unidad incluso dentro de la diversidad."
+  },
+  {
+    "Talento": "Connectedness",
+    "Afirmación": "Me motiva trabajar en causas que impactan a comunidades enteras."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Creo en aplicar las reglas de forma justa para todos."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Me esfuerzo por asegurar que todos tengan acceso a las mismas oportunidades."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Busco mantener la equidad en decisiones, sin favoritismos."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Me tranquiliza trabajar dentro de sistemas donde se respeta la igualdad."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Prefiero normas claras que eviten la arbitrariedad."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Me incomoda cuando algunos reciben tratos especiales injustificados."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Trabajo por crear entornos donde todos se sientan incluidos por igual."
+  },
+  {
+    "Talento": "Consistency",
+    "Afirmación": "Siento responsabilidad en mantener la estabilidad de procesos y normas."
+  },
+  {
+    "Talento": "Context",
+    "Afirmación": "Para entender el presente, primero necesito conocer el pasado."
+  },
+  {
+    "Talento": "Context",
+    "Afirmación": "Me gusta investigar cómo los eventos previos influyen en la situación actual."
+  },
+  {
+    "Talento": "Context",
+    "Afirmación": "Las decisiones tienen más sentido cuando se comprenden sus antecedentes."
+  },
+  {
+    "Talento": "Context",
+    "Afirmación": "Analizo lo que ocurrió antes para tomar mejores decisiones hoy."
+  },
+  {
+    "Talento": "Context",
+    "Afirmación": "Valoro la historia porque revela patrones que se repiten."
+  },
+  {
+    "Talento": "Deliberative",
+    "Afirmación": "Antes de actuar, evalúo cuidadosamente los riesgos involucrados."
+  },
+  {
+    "Talento": "Deliberative",
+    "Afirmación": "Prefiero avanzar con seguridad que moverme con rapidez sin preparación."
+  },
+  {
+    "Talento": "Developer",
+    "Afirmación": "Me entusiasma ver el progreso, por pequeño que sea, en otras personas."
+  },
+  {
+    "Talento": "Developer",
+    "Afirmación": "Detecto potencial en quienes otros podrían pasar por alto."
+  },
+  {
+    "Talento": "Developer",
+    "Afirmación": "Encuentro satisfacción en ayudar a otros a crecer."
+  },
+  {
+    "Talento": "Developer",
+    "Afirmación": "Celebro cada paso de mejora, no solo los logros finales."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Me tranquiliza tener rutinas y estructuras claras para cada día."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Me esfuerzo por mantener el orden incluso en entornos caóticos."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Cumplir con los plazos no es opcional para mí, es un estándar."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Me resulta natural planificar con antelación y seguir el plan."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Me incomoda la improvisación constante sin marco de trabajo."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Los sistemas predecibles me permiten ser más productivo."
+  },
+  {
+    "Talento": "Discipline",
+    "Afirmación": "Me gusta organizar el caos en algo funcional y eficiente."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Percibo las emociones de otros incluso cuando no se expresan con palabras."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Me conecto con las personas comprendiendo cómo se sienten."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Me importa el bienestar emocional de quienes me rodean."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Siento alegría genuina por los logros de los demás."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Puedo adaptar mi comunicación para que otros se sientan comprendidos."
+  },
+  {
+    "Talento": "Empathy",
+    "Afirmación": "Acompaño a otros emocionalmente incluso en su silencio."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Me esfuerzo por mantenerme alineado con mis metas sin distraerme."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Cuando me comprometo con un objetivo, lo sigo hasta completarlo."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Me incomoda desviarme del plan establecido."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Encuentro motivación al ver el avance constante hacia una meta clara."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Puedo eliminar distracciones cuando tengo un propósito definido."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Necesito claridad de dirección para sentirme productivo."
+  },
+  {
+    "Talento": "Focus",
+    "Afirmación": "Me enfoco más cuando hay prioridades claras y bien jerarquizadas."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Visualizo escenarios futuros con detalle y entusiasmo."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Me motiva pensar en lo que podría ser, más que en lo que es."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Inspiro a otros describiendo posibilidades futuras con emoción."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Puedo anticipar oportunidades que aún no son evidentes."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Me gusta trabajar en proyectos que construyen el mañana."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Las ideas sobre el futuro me impulsan a actuar en el presente."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Me pierdo soñando con el potencial de lo que viene."
+  },
+  {
+    "Talento": "Futuristic",
+    "Afirmación": "Me apasiona dar forma a visiones que transformen la realidad."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Prefiero buscar acuerdos antes que entrar en conflictos."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Me enfoco en lo que nos une, no en lo que nos divide."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Me esfuerzo por mantener la paz en conversaciones tensas."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Valoro la cooperación por encima del protagonismo."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "En desacuerdos, busco soluciones que beneficien a todos."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Me siento incómodo en ambientes conflictivos y trato de apaciguarlos."
+  },
+  {
+    "Talento": "Harmony",
+    "Afirmación": "Mi meta es que todos puedan trabajar juntos sin fricciones innecesarias."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "Me estimula encontrar conexiones poco evidentes entre ideas distintas."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "A menudo tengo más ideas de las que puedo implementar."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "Me entusiasma pensar fuera de los límites establecidos."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "Encuentro placer en explorar posibilidades nuevas e inesperadas."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "Las ideas fluyen constantemente cuando estoy inspirado."
+  },
+  {
+    "Talento": "Ideation",
+    "Afirmación": "Me aburro cuando las cosas se hacen siempre igual y sin innovación."
+  },
+  {
+    "Talento": "Includer",
+    "Afirmación": "Me esfuerzo por hacer que todos se sientan bienvenidos."
+  },
+  {
+    "Talento": "Includer",
+    "Afirmación": "Me doy cuenta cuando alguien está siendo excluido y trato de integrarlo."
+  },
+  {
+    "Talento": "Includer",
+    "Afirmación": "Creo que todos merecen tener un lugar en la conversación."
+  },
+  {
+    "Talento": "Includer",
+    "Afirmación": "Me motiva crear espacios donde nadie quede fuera."
+  },
+  {
+    "Talento": "Input",
+    "Afirmación": "Me apasiona recolectar información útil, aunque no la necesite de inmediato."
+  },
+  {
+    "Talento": "Input",
+    "Afirmación": "Suelo guardar recursos “por si acaso” pueden servir más adelante."
+  },
+  {
+    "Talento": "Input",
+    "Afirmación": "Disfruto aprendiendo sobre temas diversos sin un fin inmediato."
+  },
+  {
+    "Talento": "Input",
+    "Afirmación": "Me gusta tener acceso a muchos datos, artículos o conocimientos."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "Necesito tiempo a solas para reflexionar profundamente."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "Me nutro de conversaciones que estimulan el pensamiento."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "Me interesa explorar conceptos complejos y abstractos."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "Prefiero pensar antes de actuar o hablar."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "El silencio no me incomoda; lo uso para pensar."
+  },
+  {
+    "Talento": "Intellection",
+    "Afirmación": "Valoro la introspección como parte de mi crecimiento personal."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Encuentro alegría en el proceso de aprender algo nuevo."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Me entusiasma descubrir cómo funcionan las cosas."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Siempre tengo algo nuevo que estoy tratando de comprender."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Me atraen los desafíos que implican adquirir habilidades."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Aprender no es una fase, es una forma de vida."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Me gusta estar rodeado de personas que me enseñan."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "Invierto tiempo en formaciones aunque no lo exijan."
+  },
+  {
+    "Talento": "Learner",
+    "Afirmación": "El conocimiento me proporciona energía y propósito."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Me enfoco en desarrollar lo que ya funciona bien."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Prefiero perfeccionar fortalezas antes que reparar debilidades."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Busco la excelencia, no solo el cumplimiento."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Me inspiro al ver el potencial convertirse en algo sobresaliente."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Me interesa llevar a las personas de buenas a excepcionales."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Me motiva alcanzar el rendimiento superior en cada área."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Me incomoda la mediocridad cuando se puede brillar."
+  },
+  {
+    "Talento": "Maximizer",
+    "Afirmación": "Siempre estoy afinando, ajustando y puliendo."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Busco el lado positivo incluso en situaciones difíciles."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Mi energía suele levantar el ánimo de quienes me rodean."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Me gusta celebrar los pequeños logros del día a día."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Contagio entusiasmo cuando creo en algo."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Prefiero rodearme de personas que suman alegría."
+  },
+  {
+    "Talento": "Positivity",
+    "Afirmación": "Creo que una actitud positiva transforma los resultados."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Valoro las relaciones profundas más que las superficiales."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Me siento más cómodo en círculos pequeños pero significativos."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Disfruto fortalecer vínculos con personas en quienes confío."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Abro mi mundo solo cuando hay confianza real."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Me involucro genuinamente en la vida de quienes estimo."
+  },
+  {
+    "Talento": "Relator",
+    "Afirmación": "Lo personal importa más que lo socialmente conveniente."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Cumplir mi palabra es una cuestión de integridad."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Me comprometo más allá de lo esperado cuando acepto una tarea."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Me siento mal si fallo a alguien que confió en mí."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Asumo como propios los compromisos que acepto."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Mi sentido del deber guía mis decisiones."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Prefiero hacer más que prometer menos."
+  },
+  {
+    "Talento": "Responsibility",
+    "Afirmación": "Ser confiable es parte esencial de quién soy."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Me motiva encontrar lo que no funciona y arreglarlo."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Disfruto resolver problemas complejos paso a paso."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Veo los errores como oportunidades para mejorar."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Me gusta analizar qué salió mal y cómo evitarlo."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Encuentro satisfacción en devolver algo a su mejor versión."
+  },
+  {
+    "Talento": "Restorative",
+    "Afirmación": "Afronto las dificultades con mentalidad de solución."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "Confío en mi juicio incluso cuando es diferente al del resto."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "Tomo decisiones con convicción interna, no por presión externa."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "Me siento capaz de enfrentar situaciones sin depender de otros."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "La confianza en mí mismo guía mis pasos."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "Avanzo aunque los demás duden, si sé que voy en la dirección correcta."
+  },
+  {
+    "Talento": "Self-Assurance",
+    "Afirmación": "Mi seguridad personal no depende del entorno."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Me esfuerzo por hacer cosas que dejen huella."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Me motiva que mi trabajo sea valorado y reconocido."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Quiero tener un impacto visible en lo que hago."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Aspiro a ser recordado por contribuir con excelencia."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Busco proyectos que me reten y me hagan destacar."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Me impulsa saber que mi esfuerzo tiene importancia real."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "Deseo marcar la diferencia, no pasar desapercibido."
+  },
+  {
+    "Talento": "Significance",
+    "Afirmación": "La relevancia de mis acciones me da propósito."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Disfruto conocer nuevas personas y hacer conexiones rápidas."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Me energiza socializar y dejar una buena primera impresión."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Romper el hielo me resulta natural."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Me siento cómodo hablando con desconocidos."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Me gusta ganarme la simpatía de los demás."
+  },
+  {
+    "Talento": "Woo",
+    "Afirmación": "Hacer sentir bienvenido a alguien nuevo es una prioridad para mí."
   }
 ]
