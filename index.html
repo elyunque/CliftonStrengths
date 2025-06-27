@@ -98,6 +98,10 @@
   </form>
   
   <div id="results" class="result" style="display:none;"></div>
+  <div class="action-buttons" style="margin-top: 20px;">
+    <button id="copyBtn" style="margin-right: 10px;">Copiar Resultados</button>
+    <button id="shareBtn">Compartir Resultados</button>
+  </div>
   
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -147,12 +151,6 @@
           output += `<li><strong>${talent}</strong>: ${score} puntos</li>`;
         });
         output += "</ol>";
-        output += `
-          <div class="action-buttons" style="margin-top: 20px;">
-            <button id="copyBtn" style="margin-right: 10px;">Copiar Resultados</button>
-            <button id="shareBtn">Compartir Resultados</button>
-          </div>
-        `;
         const resultDiv = document.getElementById("results");
         resultDiv.innerHTML = output;
         resultDiv.scrollIntoView({ behavior: "smooth" });
