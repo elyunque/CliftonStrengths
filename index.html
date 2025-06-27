@@ -147,9 +147,12 @@
           output += `<li><strong>${talent}</strong>: ${score} puntos</li>`;
         });
         output += "</ol>";
-        output += "<div id='sharing' class='action-buttons' hidden>";
-        output += "<button id='copyBtn'>Copiar Resultados</button>";
-        output += "<button id='shareBtn'>Compartir Resultados</button></div>";
+        output += `
+          <div class="action-buttons" style="margin-top: 20px;">
+            <button id="copyBtn" style="margin-right: 10px;">Copiar Resultados</button>
+            <button id="shareBtn">Compartir Resultados</button>
+          </div>
+        `;
         const resultDiv = document.getElementById("results");
         resultDiv.innerHTML = output;
         resultDiv.scrollIntoView({ behavior: "smooth" });
