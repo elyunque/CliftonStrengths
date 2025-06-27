@@ -59,14 +59,22 @@
       margin-bottom: 24px;
     }
     .action-buttons {
-      text-align: center;
       margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
     }
     .action-buttons button {
-      margin: 5px;
       padding: 10px 20px;
       font-size: 1em;
       cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      background-color: #0078D7;
+      color: white;
+    }
+    .action-buttons button:hover {
+      background-color: #005ea3;
     }
     @media (max-width: 600px) {
       body {
@@ -96,13 +104,13 @@
     <div id="questionContainer"></div>
     <input type="submit" value="Ver Resultados" class="submit-btn">
   </form>
-  
-  <div id="results" class="result" style="display:none;"></div>
-  <div class="action-buttons" style="margin-top: 20px;">
-    <button id="copyBtn" style="margin-right: 10px;">Copiar Resultados</button>
+  <div id="results" class="result"></div>
+  <div class="action-buttons" id="actionButtons" style="display:none;">
+    <button id="copyBtn">Copiar Resultados</button>
     <button id="shareBtn">Compartir Resultados</button>
   </div>
-  
+  <div>Versión 1.1</div>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const NUM_PAIRS = 70;
@@ -151,30 +159,30 @@
           output += `<li><strong>${talent}</strong>: ${score} puntos</li>`;
         });
         output += "</ol>";
+
         const resultDiv = document.getElementById("results");
         resultDiv.innerHTML = output;
+        document.getElementById("actionButtons").style.display = "flex";
         resultDiv.scrollIntoView({ behavior: "smooth" });
       };
 
-      document.getElementById("copyBtn").addEventListener("click", function() {
-        const resultsText = document.getElementById("results").innerText;
-        navigator.clipboard.writeText(resultsText).then(() => {
-          alert("Resultados copiados al portapapeles.");
-        }).catch(err => {
-          alert("Error al copiar: " + err);
-        });
-      });
-
-      document.getElementById("shareBtn").addEventListener("click", function() {
-        const resultsText = document.getElementById("results").innerText;
-        if (navigator.share) {
-          navigator.share({
-            title: 'Mis Resultados CliftonStrengths',
-            text: resultsText,
-            url: window.location.href
-          }).catch(err => console.error("Error al compartir:", err));
-        } else {
-          alert("Tu navegador no soporta la funcionalidad de compartir.");
+      document.addEventListener("click", function(e) {
+        if (e.target && e.target.id === "copyBtn") {
+          const text = document.getElementById("results").innerText;
+          navigator.clipboard.writeText(text).then(() => {
+            alert("Resultados copiados al portapapeles.");
+          });
+        }
+        if (e.target && e.target.id === "shareBtn") {
+          const text = document.getElementById("results").innerText;
+          if (navigator.share) {
+            navigator.share({
+              title: "Mis resultados CliftonStrengths",
+              text: text
+            }).catch(() => alert("No se pudo compartir."));
+          } else {
+            alert("Tu navegador no soporta la función de compartir.");
+          }
         }
       });
 
